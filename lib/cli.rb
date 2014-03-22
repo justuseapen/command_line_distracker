@@ -1,8 +1,8 @@
 require "thor"
  
 class MyCLI < Thor
-  desc "hello NAME", "say hello to NAME"
-  def distrack(sesh)
+  desc "distrack NAME", "Begins sesh called NAME"
+  def start_sesh(sesh)
     puts "Starting sesh named #{sesh}"
   end
 end
